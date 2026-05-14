@@ -1,0 +1,3 @@
+[submodule "ros1_ws/src/vision_opencv"]
+	path = ros1_ws/src/vision_opencv
+	url = https://github.com/ros-perception/vision_opencv

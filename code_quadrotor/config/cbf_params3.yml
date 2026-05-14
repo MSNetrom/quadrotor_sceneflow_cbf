@@ -1,0 +1,9 @@
+cbf:
+  min_depth: 0.03
+  max_depth: 300.0
+  max_velocity: 1500.0
+  radius: 1.5
+  alpha1: 8.0
+  alpha2: 1.0
+  k: 20.0
+  u_filter_alpha: 0.60

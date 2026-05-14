@@ -1,0 +1,78 @@
+# Local experiment media and datasets
+/videos/
+*.bag
+*.db3
+*.mcap
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.pfm
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.ply
+*.pcd
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+*~
+.idea/
+.vscode/
+
+# CMake and compiler output
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/CTestConfiguration.ini
+**/CTestCustom.cmake
+**/CTestTestfile.cmake
+**/Makefile
+**/*.cmake.user
+compile_commands.json
+*.o
+*.obj
+*.lo
+*.slo
+*.a
+*.la
+*.lai
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# Catkin/colcon output
+**/build/
+**/devel/
+**/install/
+**/log/
+**/.catkin_workspace
+**/.catkin_tools/
+**/catkin_generated/
+**/atomic_configure/
+
+# Project build products
+code_quadrotor/PDFlowConfig.cmake
+code_quadrotor/PDFlowTargets.cmake
+code_quadrotor/Scene-Flow-Impair
+code_quadrotor/pdflow_app
+code_quadrotor/my_app
+code_quadrotor/libPDFlow.so
+
+# Embedded Git metadata from copied dependencies/submodules
+**/.git

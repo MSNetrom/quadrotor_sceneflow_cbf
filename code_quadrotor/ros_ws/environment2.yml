@@ -1,0 +1,9 @@
+name: ros_env2
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - rosbags
+    - catkin_pkg

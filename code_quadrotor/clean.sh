@@ -1,0 +1,12 @@
+rm -rf CMakeFiles
+rm -rf cmake_install.cmake
+rm -rf cmake_uninstall.cmake
+rm -rf CMakeCache.txt
+rm -rf Makefile
+rm -rf PDFlowConfig.cmake
+rm -rf PDFlowTargets.cmake
+rm -rf PDFlowTargets.cmake
+rm -rf libPDFlow.so
+rm -rf Scene-Flow-Impair
+rm -rf ros_imp
+rm -rf my_app
