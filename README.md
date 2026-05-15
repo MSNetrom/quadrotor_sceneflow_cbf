@@ -26,7 +26,7 @@ The pipeline runs entirely **onboard** an NVIDIA Jetson Orin NX at **20+ Hz**:
 1. Capture RGB-D frames (Intel RealSense D445)
 2. Estimate dense scene flow (adapted from [PD-Flow](https://github.com/MarianoJT88/PD-Flow))
 3. Evaluate a soft-min composite control barrier function (CBF)
-4. Output safe velocity corrections
+4. Output safe acceleration
 
 The CBF reasons directly about per-pixel depth and velocity, so it naturally handles dynamic obstacles without needing object detection or tracking. CUDA acceleration makes the whole thing fast enough for real-time flight.
 
